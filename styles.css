@@ -1,0 +1,20 @@
+/* ───────────────────────────────────────────────────────────
+   Always Pinned Tab — CSS Overrides
+   ─────────────────────────────────────────────────────────── */
+
+/* 1) 탭 헤더에서 pin/unpin 버튼 숨기기 */
+.workspace-tab-header-inner .workspace-tab-header-pin-button {
+    display: none !important;
+  }
+  
+  /* 2) 컨텍스트 메뉴(우클릭 메뉴)에서 "Pin tab" / "Unpin tab" 항목 숨기기 */
+  .pop-over .menu-item[aria-label="Pin tab"],
+  .pop-over .menu-item[aria-label="Unpin tab"] {
+    display: none !important;
+  }
+  
+  /* 3) 닫기 버튼은 그대로 보이도록 (기본 스타일 상 override 필요 없음) */
+  /*    필요시 보장하려면 아래처럼 강제 표시할 수도 있습니다 */
+  .workspace-tab-header-inner .workspace-tab-header-inner-close-button {
+    display: block !important;
+  }

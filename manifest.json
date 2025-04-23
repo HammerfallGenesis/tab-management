@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-tab-management-plugin",
+	"name": "Tab Management",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "This is a plugin for Obsidian that enhances your workflow by automatically pinning every new tab you open",
+	"author": "HammerfallGenesis",
+	"authorUrl": "https://github.com/HammerfallGenesis",
+	"isDesktopOnly": false
+}
