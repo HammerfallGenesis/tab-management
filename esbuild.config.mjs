@@ -40,9 +40,6 @@ const context = await esbuild.context({
   outfile: 'main.js',
 });
 
-if (prod) {
-  await context.rebuild();
-  process.exit(0);
-} else {
-  await context.watch();
-}
+await context.rebuild();
+process.exit(0);
+
